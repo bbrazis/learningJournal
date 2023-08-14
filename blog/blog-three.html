@@ -1,0 +1,85 @@
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Blog Post Three</title>
+        <link rel="stylesheet" href="../css/blog.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300..600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="skip-nav">
+                <a href="#main">Skip to main</a>
+            </div>
+            <nav class="flex">
+                <a href="../index.html" class="flex nav-logo_wrapper">
+                    <svg width="244" height="244" viewBox="0 0 244 244" fill="none" xmlns="http://www.w3.org/2000/svg" class="nav-logo_image">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M121.747 243.482C188.908 243.482 243.353 189.038 243.353 121.877C243.353 54.7159 188.908 0.27124 121.747 0.27124C54.5862 0.27124 0.141602 54.7159 0.141602 121.877C0.141602 144.209 6.16166 165.136 16.6675 183.122L1.2435 229.234C0.539653 230.582 0.141602 232.116 0.141602 233.742C0.141602 239.121 4.49486 243.482 9.86487 243.482C11.0198 243.482 12.1277 243.28 13.1553 242.91L13.1925 242.949L60.47 226.938C78.4633 237.455 99.4013 243.482 121.747 243.482ZM175.557 120.465C175.557 121.828 175.851 123.122 176.379 124.289C176.879 126.081 177.407 128.485 177.247 129.87L177.245 129.893C176.973 132.246 175.89 141.637 168.885 148.464C161.857 155.314 143.441 170.527 119.242 170.527C97.899 170.527 91.2283 161.668 88.3031 156.037C87.1207 152.267 83.6013 149.532 79.4436 149.532C74.3163 149.532 70.1598 153.692 70.1598 158.823C70.1598 158.99 70.1642 159.155 70.1729 159.32C70.1877 159.604 70.2155 159.884 70.2554 160.161L70.1339 160.208C70.7864 163.529 73.906 171.56 81.1655 177.111C90.2399 184.05 98.8695 187.164 105.453 188.143C112.036 189.121 122.356 189.922 132.765 188.143C143.174 186.363 159.988 180.936 171.821 171.061C183.653 161.186 188.279 156.382 192.905 144.728C197.531 133.073 195.574 118.038 192.193 114.302L192.012 114.397C190.296 112.408 187.752 111.148 184.912 111.148C179.746 111.148 175.557 115.319 175.557 120.465Z" fill="currentColor"/>
+                    </svg>
+                    <p class="nav-logo_title">My learning journal</p>
+                </a>
+                <button id="nav-menu_btn" aria-label="navigation menu toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <div class="nav-menu" id="nav-menu" role="menu">
+                    <ul>
+                        <li role="menuitem"><a href="/index.html" class="nav-menu_item">Home</a></li>
+                        <li role="menuitem"><a href="/about.html" class="nav-menu_item">About Me</a></li>
+                        <li role="menuitem"><a href="/blog.html" class="nav-menu_item">My Journal</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="grid blog-page_grid" id="main">
+            <h1 class="heading">My new journey as a bootcamp student.</h1>
+            <p class="blog-page_date">July 23, 2022</p>
+            <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+            <img src="../images/article-image-01.jpg" alt="" class="blog-post_img">
+            <div class="flex flex-content">
+                <h2 class="bold small-h2">How I stay committed to learning</h2>
+                <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
+                <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
+                <h2 class="bold small-h2">How I got started</h2>
+                <p>I started simple and gradually grew my learning journal site. I would take notes about what I was learning. After each learning session, I'd use my notes to not only reflect on what I learned but also write short summaries of what I learned using my own words.</p>
+                <p>That helped me grok what I was learning, and I realized that posting my learning summaries was also helping others learn and stay motivated.</p>
+            </div>
+        </main>
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="grid blog-section">
+                <article class="blog-post">
+                    <a href="../blog/blog-one.html" class="grid blog-post_link-wrapper">
+                        <img src="../images/article-image-03.jpg" alt="" class="blog-img">
+                        <h2 class="heading blog-title">Blog one</h2>
+                        <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                        <p class="blog-date uppercase">July 23, 2022</p>
+                    </a>
+                </article>
+                <article class="blog-post">
+                    <a href="../blog/blog-two.html" class="grid blog-post_link-wrapper">
+                        <img src="../images/article-image-02.jpg" alt="" class="blog-img">
+                        <h2 class="heading blog-title">Blog two</h2>
+                        <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                        <p class="blog-date uppercase">July 23, 2022</p>
+                    </a>
+                </article>
+                <article class="blog-post">
+                    <a href="../blog/blog-three.html" class="grid blog-post_link-wrapper">
+                        <img src="../images/article-image-01.jpg" alt="" class="blog-img">
+                        <h2 class="heading blog-title">Blog three</h2>
+                        <p class="blog-description">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                        <p class="blog-date uppercase">July 23, 2022</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <p class="bold">My Learning Journal</p>
+            <p class="legal-text">Copyright ©️2023</p>
+        </footer>
+        <script src="../js/index.js" type="module"></script>
+    </body>   
+</html>
